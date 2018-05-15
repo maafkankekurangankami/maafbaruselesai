@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_account_box"/>
+
+        <TextView
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="About Us"/>
+
+        <TextView
+            android:layout_gravity="top"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kami adalah Sekelompok Mahasiswa Yang Merancang Sebuah Aplikasi Android untuk dipresentasiukan Guna memenuhi Tugas semester 4 dan dapat lulus di mata kuliah aplikasi perangkat bergerak.
+.aplikasi yang kami buat adalah  bertemakan Wisata Pendidikan Di Provinsi Yogyakarta"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="id.giviews.daftarwisata.detailWisata">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgdetailwisata"
+            android:src="@drawable/monjali" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Monumen Jogjs Kembali"
+            android:id="@+id/txtdetailnamawisata"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="25.000"
+            android:id="@+id/txthargatiket"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="Museum Monumen Yogya Kembali, adalah sebuah museum sejarah perjuangan kemerdekaan Republik Indonesia yang ada di kota Yogyakarta dan dikelola oleh Departemen Kebudayaan dan Pariwisata. Museum yang berada di bagian utara kota ini banyak dikunjungi oleh para pelajar dalam acara darmawisata.
+Rana di pintu masuk museum
+
+Museum Monumen dengan bentuk kerucut ini terdiri dari 3 lantai dan dilengkapi dengan ruang perpustakaan serta ruang serbaguna. Pada rana pintu masuk dituliskan sejumlah 422 nama pahlawan yang gugur di daerah Wehrkreise III (RIS) antara tanggal 19 Desember 1948 sampai dengan 29 Juni 1949. Dalam 4 ruang museum di lantai 1 terdapat benda-benda koleksi: realia, replika, foto, dokumen, heraldika, berbagai jenis senjata, bentuk evokatif dapur umum dalam suasana perang kemerdekaan 1945-1949. Tandu dan dokar (kereta kuda) yang pernah dipergunakan oleh Panglima Besar Jenderal Soedirman juga disimpan di sini"
+            android:id="@+id/txtdetailwisata"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

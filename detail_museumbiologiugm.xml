@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="id.giviews.daftarwisata.detailWisata">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgdetailwisata"
+            android:src="@drawable/museumbiologi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Museum Biologi UGM"
+            android:id="@+id/txtdetailnamawisata"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="18.000"
+            android:id="@+id/txthargatiket"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="
+Museum Biologi UGM tersebut terletak di Jalan Sultan Agung No. 22 Kecamatan Mergangsan, Kotamadya Yogyakarta, Yogyakarta. Pendirian museum ini merupakan gagasan dari Prof. Drg. RG Indrayana (alm.) dan Prof. Ir. Moeso Soeryowinoto (alm.). Awalnya, koleksi museum ini merupakan penggabungan dari koleksi Museum Zoologicum yang dikelola Prof. Drg. RG Indrayana (alm.) dan koleksi Museum Herbarium yang dikelola Prof. Ir. Moeso Soeryowinoto (alm.). Sejak tahun 1956, kedua museum ini bersama-sama berada di bawah
+Fakultas Biologi UGM Yogyakarta yang kala itu masih bertempat di Ndalem Mangkubumen, Ngasem, kondang dengan sebutan Fakultas “Kompleks Ngasem”.
+Pada perkembangan selanjutnya, atas prakarsa Dekan Fakultas Biologi Ir. Suryo Adisewoyo (Alm.), bertepatan dengan Dies Natalis Fakultas Biologi UGM pada tanggal 20 September 1969, diresmikanlah Museum Biologi yang terletak di Jalan Sultan Agung No. 22 Kecamatan Mergangsan, Kotamadya Yogyakarta, Yogyakarta. Peresmian dilakukan oleh Rektor Universitas Gadjah Mada,                Prof. Dr. Soeroso H. Prawirohardjo, M.A. (Alm.). Museum Biologi UGM mulai dibuka untuk umum sejak 1 Januari 1970. Tahun 1969 – 2001, pengelolaan Museum Biologi ini berada di bawah tanggungjawab Drs. Anthon Sukahar sebagai ketua tim pelaksana sekaligus Direktur Museum yang pertama. Berturut-turut merupakan pengganti Drs. Anthon Sukahar yaitu Prof. Dr. Mammet Sagi (2001 – 2003), Dr. RC. Hidayat Soesilohadi, MS (2003 – 2004), Dr. L. Hartanto Nugroho, M.Agr. (2004 – 2008), Drs. Trijoko, M.Si. (2009 – 2011), Ludmilla Fitri Untari S.Si, M.Si (2011 – 2012), dan Donan Satria Yudha, S.Si., M.Sc. (2012 – sekarang)."
+            android:id="@+id/txtdetailwisata"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

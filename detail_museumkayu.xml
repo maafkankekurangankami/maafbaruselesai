@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="id.giviews.daftarwisata.detailWisata">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgdetailwisata"
+            android:src="@drawable/museumwayang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Museum Kayu"
+            android:id="@+id/txtdetailnamawisata"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="15.000"
+            android:id="@+id/txthargatiket"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="Museum ini berdiri atas ide staf dosen Fakultas Kehutanan Universitas Gajah Mada Prof. Dr. Ir. Hj. Oemi Haniin Soeseno dan Ir. Etty Suliantoro Sulaiman bersama Perum Perhutani setelah mengikuti Pameran Museum Antropologis di Perancis dan pendirian Jati Centre di Cepu dalam rangka lebih mengekspresikan kayu. Selanjutnya ditindaklanjuti dengan pendirian bangunan museum tahun 1995 di kawasan hutan pendidikan Wanagama.
+
+Bahan baku bangunan museum berupa dua buah rumah kayu buatan tahun 1880 sumbangan dari Perum Perhutani yang dirombak menjadi satu bangunan dalam bentuk rumah panggung. Museum ini diresmikan pada tanggal 8 Agustus 1998 oleh Gubernur Daerah Istimewa Yogyakarta Sri Sultan Hamengku Buwono X dan Menteri Kehutanan RI. Ir. Muslimin Nasution.
+
+Daerah Gunung Kidul. bagian selatan secara topografi merupakan jajaran pegunungan kapur. Kondisi inilah yang membuat para pakar Fakultas Kahutanan UGM tertantang untuk menghijaukannya. Pada November 1990, penanaman pohon jati di areal batu cadas Hutan Wanagama pun dilakukan.
+
+Aksi ini didukung oleh Pangeran Charles, putra mahkota kerajaan Inggris yang merupakan pecinta dan penggerak lingkungan hidup. Apabila Anda berkunjung ke sana, Anda dapat melihat gebyok jati yang telah berusia dua ratus tahun yang merupakan hibah dari PERHUTANI serta beragam fosil kayu yang unik lainnya.
+
+Bangunan Museum Kayu Wanagama berbentuk rumah panggung. Bahan material bangunan dari tanah hingga lantai merupakan konstruksi beton, lantai dan dinding dari bahan kayu, sedangkan atap dari genteng tanah"
+            android:id="@+id/txtdetailwisata"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

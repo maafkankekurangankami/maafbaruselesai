@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.navigationdrawer.MainActivity">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <Button
+            android:id="@+id/sleman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:height="30dp"
+            android:onClick="Pindah"
+            android:padding="5dp"
+            android:text="SLEMAN"
+            />
+        <Button
+            android:id="@+id/bantul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:height="30dp"
+            android:onClick="Pindah2"
+            android:padding="5dp"
+            android:text="Bantul" />
+        <Button
+            android:id="@+id/kulonprogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:height="30dp"
+            android:onClick="Pindah3"
+            android:padding="5dp"
+            android:text="Kulon Progo"/>
+        <Button
+            android:id="@+id/gunungkidul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:height="30dp"
+            android:onClick="Pindah4"
+            android:padding="5dp"
+            android:text="Gunung Kidul"/>
+        <Button
+            android:id="@+id/jogjakota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:height="30dp"
+            android:onClick="Pindah5"
+            android:padding="5dp"
+            android:text="Yogyakarta"/>
+    </LinearLayout>
+
+</RelativeLayout>

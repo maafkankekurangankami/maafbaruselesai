@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="id.giviews.daftarwisata.detailWisata">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgdetailwisata"
+            android:src="@drawable/rumahbudayatembi" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Museum Tembi"
+            android:id="@+id/txtdetailnamawisata"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="15.000"
+            android:id="@+id/txthargatiket"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="Museum Rumah Budaya Tembi adalah tempat menyimpan dokumentasi sekaligus memberikan
+            informasi tentang sejarah dan budaya Jawa yang berlokasi di Kabupaten Bantul, provinsi Daerah
+            Istimewa Yogyakarta. Tembi juga merupakan saksi lahirnya karya kreatif berbasis masyarakat lokal.
+            Rumah budaya ini sering menyelenggarakan berbagai kegiatan seni budaya seperti pameran senirupa,
+            pertunjukan seni tradisional maupun kontemporer, pentas tari dan teater, musik, hingga pertunjukan
+            seni baca pembacaan puisi. Museum ini tidak dibiayai oleh lembaga mana pun. Semua kegiatan yang
+            diselenggarakan bersifat nirlaba. Untuk memenuhi kebutuhan pengeluaran, Tembi memiliki mendapatkan
+            pemasukan dari fasilitas seperti bale karya, bale rupa, bale inap, museum, perpustakaan, kolam renang."
+            android:id="@+id/txtdetailwisata"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
